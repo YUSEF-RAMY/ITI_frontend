@@ -1,0 +1,442 @@
+*{
+    padding: none;
+    margin: none;
+}
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 24px;
+      background-color: white;
+    }
+
+    .navbar-left,
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .logo img {
+      /* height: 24px; */
+      margin-top: 8px;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .nav-button {
+      background-color: black;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 13px;
+      text-decoration: none;
+    }
+    #main-S1{
+        text-align: center; 
+        margin-top: 100px;
+        width: 520px;
+        margin: 50px auto ;
+    }
+    #main-S1 button{
+        padding: 15px;
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 20px;
+        outline: none;
+        background-color: #06945b;
+        color: white;
+    }
+/* ============================================================================== */
+#main-S2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}    
+
+
+#main-S2 p{
+    font-size: 13px;
+    color: gray;
+}
+/* ============================================================================== */
+
+.section-3 {
+      padding: 60px 100px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0% auto;
+      position: relative;
+    }
+
+    .text-content {
+      flex: 1 1 45%;
+      max-width: 500px;
+    }
+
+    .text-content h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .text-content p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .learn-btn {
+      padding: 12px 24px;
+      border: 2px solid #000;
+      background-color: #fcd5af;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .features {
+      display: flex;
+      margin-top: 40px;
+      gap: 60px;
+    }
+
+    .feature {
+      max-width: 220px;
+    }
+
+    .feature h3 {
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .image-content {
+      flex: 1 1 45%;
+      text-align: center;
+    }
+
+    #img-S-3{
+          width: 700px;
+      height: auto;
+      position: absolute;
+      right: 50px;
+      top: 85px;
+    }
+
+    .testimonial {
+      background-color: #fcd5af;
+      padding: 40px;
+      margin: 0px 40px ;
+      border-radius: 30px ;
+      border: 1px solid #000;
+      position: relative;
+    }
+
+    .testimonial p {
+      width: 800px;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+    
+    .testimonial .author {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        left: 100px;
+    }
+
+    .author img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .author-name {
+      font-weight: bold;
+    }
+
+    .stars {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .stars span {
+        font-size: 14px;
+        position: absolute;
+        right: 100px;
+        bottom: 20px;
+    }
+
+/* =======================================
+ */
+ /* S6 */
+ .section-6 {
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .top-box {
+      border: 1px solid #000;
+      border-radius: 30px;
+      padding: 40px;
+      width: 90%;
+      max-width: 1000px;
+      position: relative;
+      text-align: center;
+    }
+
+    .top-box h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .top-box p {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .stat {
+      text-align: center;
+      margin: 10px 20px;
+    }
+
+    .stat h2 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .stat span {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin: 60px 0;
+    }
+
+    .card {
+      border: 1px solid #000;
+      border-radius: 16px;
+      padding: 24px;
+      width: 280px;
+      box-sizing: border-box;
+    }
+
+    .card-icon {
+      background-color: #ffe100;
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      font-size: 14px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    .cta-box {
+      border: 1px solid #000;
+      border-radius: 30px;
+      padding: 40px 20px;
+      width: 90%;
+      max-width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .cta-text {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .cta-button {
+      background-color: #ffe100;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .cta-note {
+      font-size: 12px;
+      color: #555;
+    }
+
+/* =================================== */
+/* footer  */
+.footer {
+      padding: 60px 40px 20px;
+      background-color: #000;
+    }
+
+    .footer-top {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: space-between;
+    }
+
+    .footer-column {
+      min-width: 160px;
+    }
+
+    .footer-column h4 {
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .footer-column ul li:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .search-box {
+      margin: 40px 0;
+      display: flex;
+      align-items: center;
+      background-color: #111;
+      border: 1px solid #444;
+      border-radius: 4px;
+      width: 300px;
+      padding: 8px;
+    }
+
+    .search-box input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: white;
+      width: 100%;
+      padding-left: 8px;
+    }
+
+    .search-box input::placeholder {
+      color: #aaa;
+    }
+
+    .search-icon {
+      color: #888;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #333;
+      margin-top: 40px;
+      padding-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .footer-bottom .left,
+    .footer-bottom .right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 12px;
+      margin-left: 20px;
+    }
+
+    .social-icons span {
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .store-buttons {
+      margin-top: 20px;
+    }
+
+    .store-buttons img {
+      height: 36px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
